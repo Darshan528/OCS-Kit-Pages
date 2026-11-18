@@ -564,7 +564,7 @@
         "_layouts/fortunefindersCasino.html",
         "assets/css/marketEvents.css"
       ],
-      "notes": "Fortune Finders (features/finance-sim/) needs Spring's /rpg_answer endpoints for balance and quiz questions. OCS Spring removed them in 'migrate adventure' and the kit Spring has none, so the page waits here until they exist."
+      "notes": "Fortune Finders (features/finance-sim/) uses Spring's /api/rpg_answer endpoints for balance and quiz questions (mvc.fortuneFinders in OCS-Kit-Spring), so it needs finance-sim on in both backends."
     },
     "resume": {
       "name": "Resume builder",
